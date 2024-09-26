@@ -9,12 +9,12 @@ const Developer = ({animationName = 'idle', ...props}) => {
 
     const groupRef = useRef();
 
-    const { nodes, materials } = useGLTF('/models/human/sushil_designer_model.glb');
+    const { nodes, materials } = useGLTF('models/human/sushil_designer_model.glb');
 
-    const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
-    const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx');
-    const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
-    const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
+    const { animations: idleAnimation } = useFBX('models/animations/idle.fbx');
+    const { animations: saluteAnimation } = useFBX('models/animations/salute.fbx');
+    const { animations: clappingAnimation } = useFBX('models/animations/clapping.fbx');
+    const { animations: victoryAnimation } = useFBX('models/animations/victory.fbx');
     
     idleAnimation[0].name = 'idle';
     saluteAnimation[0].name = 'salute';
@@ -104,6 +104,6 @@ const Developer = ({animationName = 'idle', ...props}) => {
     )
 }
 
-useGLTF.preload('/models/human/sushil_designer_model.glb')
+useGLTF.preload('models/human/sushil_designer_model.glb')
 
 export default Developer;

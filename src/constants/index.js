@@ -63,19 +63,19 @@
         subdesc:
         'This is an interactive demo to produce an effect of moving car in 3D space. In addition PostProcessing is used to produce cool after effects for the animation.  The key technologies are React Fiber and PostProcessing for the ring effects',
         href: 'https://susgupta.github.io/3d_car_show/',
-        texture: '/textures/project/3d_car_demo_project_export.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: 'textures/project/3d_car_demo_project_export.mp4',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
         {
             id: 1,
             name: 'React.js',
-            path: '/assets/react.svg',
+            path: 'assets/react.svg',
         },
         {
             id: 2,
@@ -90,19 +90,19 @@
         subdesc:
         'Using media queries to cover break point design. Same with site navigation for media queries.  Used ScrollReveal js library to animate on reveal',
         href: 'https://susgupta.github.io/responsive_travel_site/index.html',
-        texture: '/textures/project/travel_theme_site.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: 'textures/project/travel_theme_site.mp4',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
         {
             id: 1,
             name: 'React.js',
-            path: '/assets/react.svg',
+            path: 'assets/react.svg',
         },
         {
             id: 2,
@@ -117,8 +117,8 @@
         subdesc:
         'It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.  This is design/code exercise to explore GSAP animations and adding interactive 3D models',
         href: 'https://susgupta.github.io/clone_3d_apple/',
-        texture: '/textures/project/clone_apple_site.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: 'textures/project/clone_apple_site.mp4',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -126,12 +126,12 @@
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
-        spotlight: '/assets/spotlight3.png',
+        spotlight: 'assets/spotlight3.png',
         tags: [
         {
             id: 1,
             name: 'React.js',
-            path: '/assets/react.svg',
+            path: 'assets/react.svg',
         },
         {
             id: 2,
@@ -141,7 +141,7 @@
         {
             id: 4,
             name: 'Framer Motion',
-            path: '/assets/framer.png',
+            path: 'assets/framer.png',
         },
         ],
     },
@@ -151,19 +151,19 @@
         subdesc:
         'The site is fully responsive using media queries and features dynamic fluid typography effects using CSS clamp.  The site supports a toggle to apply both light and dark mode, using simple JS to toggle classes.  Finally the site uses ScrollToReveal for some effects.',
         href: 'https://susgupta.github.io/sushil_designer_portfolio/index.html',
-        texture: '/textures/project/original_portfolio_site.mp4',
-        logo: '/assets/project-logo4.png',
+        texture: 'textures/project/original_portfolio_site.mp4',
+        logo: 'assets/project-logo4.png',
         logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
         boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
-        spotlight: '/assets/spotlight4.png',
+        spotlight: 'assets/spotlight4.png',
         tags: [
         {
             id: 1,
             name: 'React.js',
-            path: '/assets/react.svg',
+            path: 'assets/react.svg',
         },
         {
             id: 2,
@@ -192,7 +192,7 @@
         pos: 'UX/UI Design Lead',
         duration: '2022 - Present',
         title: "Currently a UI/UX Design Lead creating design experiences as well as establishing and maintaining a design system.  Collaborating and working with fellow designers and clients, in addition to coaching other designers.  A problem-solver that help our partners bring their visions to life.",
-        icon: '/assets/bankicon_white.svg',
+        icon: 'assets/bankicon_white.svg',
         animation: 'victory',
     },
     {
@@ -201,7 +201,7 @@
         pos: 'Web/iOS Front End Developer',
         duration: '2018 - 2022',
         title: "Lead developer/designer for frontline banking application platform.  Worked and implemented on both front-end and back-end aspects, including internal as well system-to-system design.  Assisted and coached other developers within the team.  Used both web technologies (with Angular web) and native iOS as well.",
-        icon: '/assets/bankicon_white.svg',
+        icon: 'assets/bankicon_white.svg',
         animation: 'clapping',
     },
     {
@@ -210,7 +210,7 @@
         pos: 'Java/.NET and Full Stack Developer',
         duration: '2007 - 2017',
         title: ".NET/Java  full stack developer/programmer for various banking applications.  Was both developer and technical designer",
-        icon: '/assets/bankicon_white.svg',
+        icon: 'assets/bankicon_white.svg',
         animation: 'salute',
     },
 ];

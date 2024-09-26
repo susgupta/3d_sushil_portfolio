@@ -9,9 +9,9 @@ import gsap from 'gsap';
 
 const DemoComputer = (props) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/models/computer.glb');
+  const { nodes, materials } = useGLTF('models/computer.glb');
   
-  const texturePath = props.texture ? props.texture : '/textures/project/project1.mp4';
+  const texturePath = props.texture ? props.texture : 'textures/project/3d_car_demo_project_export.mp4';
   const videoTexture = useVideoTexture(texturePath);
   
   useEffect(() => {
@@ -1016,6 +1016,6 @@ const DemoComputer = (props) => {
   )
 }
 
-useGLTF.preload('/models/computer.glb');
+useGLTF.preload('models/computer.glb');
 
 export default DemoComputer;

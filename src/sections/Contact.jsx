@@ -25,7 +25,7 @@ const Contact = () => {
         <section className='c-space my-20' id="contact">
 
             <div className='relative min-h-screen flex items-center justify-center flex-col'>
-                <img src="/assets/terminal.png" alt="terminal background" className='absolute inset-0 min-h-screen' />
+                <img src="assets/terminal.png" alt="terminal background" className='absolute inset-0 min-h-screen' />
 
                 <div className='contact-container'>
 
@@ -82,7 +82,7 @@ const Contact = () => {
 
                         <button className="field-btn" type="submit" disabled={loading}>
                             {loading ? 'Sending...' : 'Send message'}
-                            <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+                            <img src="assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
                         </button>
                         
                     </form>
