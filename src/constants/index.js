@@ -90,7 +90,7 @@
         subdesc:
         'Using media queries to cover break point design. Same with site navigation for media queries.  Used ScrollReveal js library to animate on reveal',
         href: 'https://susgupta.github.io/responsive_travel_site/index.html',
-        texture: 'textures/project/travel_theme_site.mp4',
+        texture: 'textures/project/travel_theme_site_export.mp4',
         logo: 'assets/project-logo2.png',
         logoStyle: {
         backgroundColor: '#13202F',
@@ -117,7 +117,7 @@
         subdesc:
         'It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.  This is design/code exercise to explore GSAP animations and adding interactive 3D models',
         href: 'https://susgupta.github.io/clone_3d_apple/',
-        texture: 'textures/project/clone_apple_site.mp4',
+        texture: 'textures/project/clone_apple_site_export.mp4',
         logo: 'assets/project-logo2.png',
         logoStyle: {
         backgroundColor: '#60f5a1',
@@ -151,7 +151,7 @@
         subdesc:
         'The site is fully responsive using media queries and features dynamic fluid typography effects using CSS clamp.  The site supports a toggle to apply both light and dark mode, using simple JS to toggle classes.  Finally the site uses ScrollToReveal for some effects.',
         href: 'https://susgupta.github.io/sushil_designer_portfolio/index.html',
-        texture: 'textures/project/original_portfolio_site.mp4',
+        texture: 'textures/project/original_portfolio_site_export.mp4',
         logo: 'assets/project-logo4.png',
         logoStyle: {
         backgroundColor: '#0E1F38',
