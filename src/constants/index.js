@@ -85,6 +85,33 @@
         ],
     },
     {
+        title: 'Interactive Gaming Product Site',
+        desc: 'This is another interactive style product page site. In effect video animations and scroll animations are used to crate an immersive and engaging experience.',
+        subdesc:
+        'Fully responsive on any device including desktop, tablet and phones.  Interactive hero section with ability to change and rotate some videos.  Leveraging Tailaind CSS and learning how to configure tailwind to support custom CSS styles and import custom fonts.',
+        href: 'https://susgupta.github.io/gaming_awwards/',
+        texture: 'textures/project/gaming_awwards_export.mp4',
+        logo: 'assets/project-logo2.png',
+        logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: 'assets/spotlight2.png',
+        tags: [
+        {
+            id: 1,
+            name: 'React.js',
+            path: 'assets/react.svg',
+        },
+        {
+            id: 2,
+            name: 'TailwindCSS',
+            path: 'assets/tailwindcss.png',
+        },
+        ],
+    },
+    {
         title: 'Responsive Travel Site (Design Exercise)',
         desc: 'This is a responsive design exercise to create a fake travel/beach themed site.',
         subdesc:
